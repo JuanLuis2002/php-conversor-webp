@@ -19,6 +19,8 @@ Este proyecto permite subir y convertir hasta 450 imágenes en formato JPG, JPEG
 
 Para poder procesar hasta 450 imágenes sin problemas, es necesario configurar algunos parámetros en el archivo `php.ini` de tu entorno local o servidor:
 
+<img width="1346" height="679" alt="image" src="https://github.com/user-attachments/assets/27a98401-a2b5-4116-90a7-fde5290999e9" />
+
 ```ini
 ; Permite subir hasta 500 archivos en un mismo formulario
 max_file_uploads = 500
@@ -37,5 +39,3 @@ max_execution_time = 300
 
 ; Límite de memoria para el script PHP (necesario para procesamiento de imágenes)
 memory_limit = 2048M
-
-<img width="1346" height="679" alt="image" src="https://github.com/user-attachments/assets/27a98401-a2b5-4116-90a7-fde5290999e9" />
