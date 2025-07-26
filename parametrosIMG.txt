@@ -1,0 +1,17 @@
+; Permite subir hasta 500 archivos en un mismo formulario
+max_file_uploads = 500
+
+; Tamaño máximo permitido por archivo (ajústalo según el peso promedio)
+upload_max_filesize = 5M
+
+; Tamaño total del formulario (todos los archivos juntos + metadatos)
+post_max_size = 2048M
+
+; Número máximo de variables aceptadas en una solicitud (opcional)
+max_input_vars = 5000
+
+; Tiempo máximo para ejecutar el script PHP (en segundos)
+max_execution_time = 300
+
+; Límite de memoria para el script PHP (necesaria para procesar imágenes)
+memory_limit = 2048M
